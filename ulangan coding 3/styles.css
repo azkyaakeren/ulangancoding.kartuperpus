@@ -1,0 +1,63 @@
+body {
+    background: url(pinkyy.jpg) no-repeat center center fixed;
+    background-size: cover; 
+    margin: 0; 
+    overflow: hidden; 
+    height: 100vh; 
+  }
+
+  .container {
+    background-color: rgb(0, 213, 255);
+    border: dashed 4px;
+    border-color: white;
+    border-radius: 20px;
+    padding: 20px 40px;
+    width: 90%;
+    max-width: 800px;
+    margin: auto;
+    margin-top: 10vh;
+    opacity: 0.8;
+  }
+
+  .input {
+    margin: 3px;
+  }
+
+  .container h2 {
+    text-align: center;
+    border-bottom: 2px dashed;
+    border-color: white;
+    color: white;
+  }
+
+  .input label {
+    color: white;
+  }
+
+  .column{
+    padding: 10px;
+    text-align: center;
+  }
+
+  .bttn button {
+    width: 100px;
+    height: 25px;
+    display: block;
+    text-align: center;
+  }
+
+  .input select,
+  .input input[type="text"],
+  .input input[type="date"],
+  .input input[type="number"],
+  .input textarea {
+    width: 100%; 
+    box-sizing: border-box; 
+  }
+
+  
+  @media (max-width: 600px) {
+    .container {
+      padding: 10px; 
+    }
+  }
